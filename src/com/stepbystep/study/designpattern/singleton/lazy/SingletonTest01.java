@@ -10,5 +10,7 @@ public class SingletonTest01 {
         SingletonLazyNotSafe in2 = SingletonLazyNotSafe.getInstance();
         System.out.println(in1);
         System.out.println(in2);
+
+
     }
 }
