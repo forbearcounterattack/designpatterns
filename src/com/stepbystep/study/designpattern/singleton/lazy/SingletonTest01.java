@@ -6,6 +6,6 @@ package com.stepbystep.study.designpattern.singleton.lazy;
  */
 public class SingletonTest01 {
     public static void main(String[] args) {
-        
+
     }
 }
