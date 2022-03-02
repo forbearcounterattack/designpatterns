@@ -14,6 +14,7 @@ public class SingletonStaticInnerClass {
     }
 
     public static SingletonStaticInnerClass getInstance() {
+
         return SingletonInstance.INSTANCE;
     }
 }
