@@ -1,6 +1,7 @@
 package com.stepbystep.study.designpattern.singleton.lazy;
 
 import com.stepbystep.study.designpattern.singleton.SingletonEnum;
+import com.stepbystep.study.designpattern.singleton.SingletonStaticInnerClass;
 
 /**
  * @Author Duole
@@ -17,6 +18,9 @@ public class SingletonTest02 {
         SingletonEnum singletonEnum1 = SingletonEnum.INSTANCE;
         SingletonEnum singletonEnum2 = SingletonEnum.INSTANCE;
         System.out.println(singletonEnum1 == singletonEnum2);
+
+
+        System.out.println(SingletonStaticInnerClass.getInstance() == SingletonStaticInnerClass.getInstance());
 
 
     }

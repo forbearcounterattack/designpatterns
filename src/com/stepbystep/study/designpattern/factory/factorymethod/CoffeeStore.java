@@ -7,9 +7,10 @@ package com.stepbystep.study.designpattern.factory.factorymethod;
 public class CoffeeStore {
     private CoffeeFactory coffeeFactory;
 
-    public void SetCoffeeFactory(CoffeeFactory factory){
+    public void SetCoffeeFactory(CoffeeFactory factory) {
         this.coffeeFactory = factory;
     }
+
     public Coffee orderCoffee() {
         Coffee coffee = this.coffeeFactory.createCoffee();
         coffee.addMilk();
